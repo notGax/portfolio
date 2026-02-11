@@ -1,0 +1,135 @@
+{
+  "personal": {
+    "name": "Gauransh Sirohi",
+    "title": "MLops Engineer",
+    "bio": "Passionate about building intelligent systems and leveraging data to solve complex problems. Specialized in deep learning, computer vision, and natural language processing.",
+    "email": "your.email@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "avatar": "https://images.pexels.com/photos/7562313/pexels-photo-7562313.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  "social": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "twitter": "https://twitter.com/yourusername",
+    "email": "mailto:your.email@example.com"
+  },
+  "skills": [
+    {
+      "category": "Machine Learning",
+      "items": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "XGBoost"]
+    },
+    {
+      "category": "Deep Learning",
+      "items": ["Computer Vision", "NLP", "Reinforcement Learning", "GANs", "Transformers"]
+    },
+    {
+      "category": "Programming",
+      "items": ["Python", "JavaScript", "R", "SQL", "C++"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": ["Docker", "AWS", "Google Cloud", "Git", "Jupyter"]
+    },
+    {
+      "category": "Data Processing",
+      "items": ["Pandas", "NumPy", "Apache Spark", "Data Visualization", "ETL Pipelines"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "University Name",
+      "location": "City, State",
+      "period": "2020 - 2022",
+      "description": "Specialized in Machine Learning and Artificial Intelligence. Thesis on Deep Reinforcement Learning for Robotics."
+    },
+    {
+      "degree": "Bachelor of Science in Computer Engineering",
+      "institution": "University Name",
+      "location": "City, State",
+      "period": "2016 - 2020",
+      "description": "Focus on software engineering and data structures. Graduated with honors."
+    }
+  ],
+  "projects": [
+    {
+      "id": "image-classifier",
+      "title": "Advanced Image Classification System",
+      "description": "Built a state-of-the-art image classification model using transfer learning with ResNet-50, achieving 95% accuracy on custom dataset.",
+      "thumbnail": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Deep Learning", "Computer Vision", "PyTorch"],
+      "github": "https://github.com/yourusername/project",
+      "demo": "https://demo-url.com",
+      "detailedDescription": "This project implements a cutting-edge image classification system using deep convolutional neural networks. The model was trained on a dataset of over 100,000 images across 50 categories. Key achievements include:\n\n• Implemented transfer learning with ResNet-50 architecture\n• Applied data augmentation techniques to improve generalization\n• Achieved 95% accuracy on test set\n• Deployed as a REST API using Flask\n• Optimized inference time to under 50ms per image",
+      "technologies": ["Python", "PyTorch", "Flask", "Docker", "AWS"],
+      "challenges": "The main challenge was dealing with class imbalance in the dataset. I addressed this by implementing weighted loss functions and using advanced augmentation techniques.",
+      "results": "The model achieved 95% accuracy and is currently deployed in production, processing over 10,000 images daily."
+    },
+    {
+      "id": "nlp-sentiment",
+      "title": "Real-time Sentiment Analysis Engine",
+      "description": "Developed an NLP model for real-time sentiment analysis of social media posts using BERT transformers, processing 1000+ posts per minute.",
+      "thumbnail": "https://images.pexels.com/photos/5474286/pexels-photo-5474286.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["NLP", "Transformers", "TensorFlow"],
+      "github": "https://github.com/yourusername/project",
+      "demo": "https://demo-url.com",
+      "detailedDescription": "A high-performance sentiment analysis system that processes social media posts in real-time. The system uses fine-tuned BERT models to classify text into positive, negative, or neutral sentiments.\n\n• Fine-tuned BERT-base model on custom dataset\n• Implemented efficient batch processing\n• Built real-time dashboard for monitoring\n• Handles multilingual text\n• Achieves 92% F1-score on test data",
+      "technologies": ["Python", "TensorFlow", "BERT", "Kafka", "React"],
+      "challenges": "Optimizing inference speed while maintaining accuracy was crucial. I implemented model quantization and efficient batching strategies.",
+      "results": "Successfully deployed system processing 1000+ posts per minute with 92% accuracy across multiple languages."
+    },
+    {
+      "id": "recommendation-system",
+      "title": "Collaborative Filtering Recommendation System",
+      "description": "Created a hybrid recommendation engine combining collaborative and content-based filtering, improving user engagement by 40%.",
+      "thumbnail": "https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Machine Learning", "Recommender Systems", "Python"],
+      "github": "https://github.com/yourusername/project",
+      "demo": "https://demo-url.com",
+      "detailedDescription": "A sophisticated recommendation system that combines multiple approaches to provide personalized suggestions. The system analyzes user behavior, item features, and social connections.\n\n• Implemented matrix factorization using SVD\n• Combined collaborative and content-based filtering\n• A/B tested different algorithms\n• Scaled to handle millions of users\n• Improved user engagement by 40%",
+      "technologies": ["Python", "Scikit-learn", "PostgreSQL", "Redis", "FastAPI"],
+      "challenges": "Handling cold start problem for new users and items. Implemented hybrid approach with content-based fallback.",
+      "results": "Increased user engagement by 40% and average session time by 25%. System serves 5M+ recommendations daily."
+    },
+    {
+      "id": "object-detection",
+      "title": "Real-time Object Detection for Autonomous Systems",
+      "description": "Implemented YOLO-based object detection system for autonomous navigation, detecting 80+ object classes in real-time at 30 FPS.",
+      "thumbnail": "https://images.pexels.com/photos/8438944/pexels-photo-8438944.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Computer Vision", "Deep Learning", "YOLO"],
+      "github": "https://github.com/yourusername/project",
+      "demo": "https://demo-url.com",
+      "detailedDescription": "A real-time object detection system designed for autonomous navigation applications. Built using YOLOv5 architecture and optimized for edge deployment.\n\n• Trained YOLOv5 on custom autonomous driving dataset\n• Optimized for real-time inference on embedded systems\n• Achieved 30+ FPS on NVIDIA Jetson\n• Detects 80+ object classes\n• Implemented tracking and prediction",
+      "technologies": ["Python", "PyTorch", "OpenCV", "TensorRT", "CUDA"],
+      "challenges": "Achieving real-time performance on edge devices while maintaining accuracy. Used model pruning and TensorRT optimization.",
+      "results": "Successfully deployed on autonomous platform, achieving 30 FPS with 85% mAP on custom test set."
+    },
+    {
+      "id": "time-series",
+      "title": "Time Series Forecasting with LSTMs",
+      "description": "Built an LSTM-based forecasting model for predicting stock prices and market trends with 88% directional accuracy.",
+      "thumbnail": "https://images.pexels.com/photos/7567434/pexels-photo-7567434.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Deep Learning", "LSTM", "Time Series"],
+      "github": "https://github.com/yourusername/project",
+      "demo": "https://demo-url.com",
+      "detailedDescription": "A sophisticated time series forecasting system using LSTM neural networks. The model analyzes historical data to predict future trends and patterns.\n\n• Implemented multi-layer LSTM architecture\n• Feature engineering with technical indicators\n• Backtesting framework for validation\n• Real-time prediction pipeline\n• 88% directional accuracy",
+      "technologies": ["Python", "TensorFlow", "Pandas", "NumPy", "Plotly"],
+      "challenges": "Handling non-stationary data and avoiding overfitting. Implemented walk-forward validation and regularization techniques.",
+      "results": "Achieved 88% directional accuracy with low false positive rate. Model used for strategic decision making."
+    },
+    {
+      "id": "chatbot",
+      "title": "AI-Powered Customer Service Chatbot",
+      "description": "Developed an intelligent chatbot using GPT-based models and RAG architecture, handling 85% of customer queries automatically.",
+      "thumbnail": "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["NLP", "Transformers", "RAG"],
+      "github": "https://github.com/yourusername/project",
+      "demo": "https://demo-url.com",
+      "detailedDescription": "An intelligent conversational AI system for customer service automation. Uses retrieval-augmented generation (RAG) to provide accurate, context-aware responses.\n\n• Fine-tuned GPT model on company data\n• Implemented RAG with vector database\n• Multi-turn conversation handling\n• Sentiment-aware responses\n• 85% query resolution rate",
+      "technologies": ["Python", "OpenAI API", "LangChain", "Pinecone", "FastAPI"],
+      "challenges": "Ensuring factual accuracy and handling edge cases. Implemented RAG architecture with confidence scoring.",
+      "results": "Reduced customer service load by 85%, improved response time from hours to seconds, 92% user satisfaction."
+    }
+  ]
+}
